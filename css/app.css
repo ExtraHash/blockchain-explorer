@@ -81,6 +81,11 @@ footer {
   height: 512px;
 }
 
+#transactionPool_wrapper {
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
 .dataTables_wrapper {
   width: 100% !important;
 }
