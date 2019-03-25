@@ -1,4 +1,4 @@
-# TurtlePay™ Blockchain Explorer
+# TurtleCoin Blockchain Explorer
 
 This Blockchain Explorer is entirely self contained.
 
