@@ -21,6 +21,14 @@ footer {
   background-color: #00853d;
 }
 
+.has-trtl-green {
+  color: #00853d !important;
+}
+
+.has-trtl-red {
+  color: #de5f5f !important;
+}
+
 .is-trtl-black {
   background-color: #212721 !important;
   color: #fff !important;
@@ -81,6 +89,10 @@ footer {
 .table {
   font-size: 9pt;
   font-family: "Lucida Console", Monaco, monospace;
+}
+
+#transactionNonce {
+  word-wrap: break-word;
 }
 
 #paymentIdTransactions_filter,

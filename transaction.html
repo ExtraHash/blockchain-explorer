@@ -24,7 +24,7 @@
     <script src="./js/config.js"></script>
     <script src="./js/common.js"></script>
     <script src="./js/turtlecoin-crypto-wasm.js"></script>
-    <script src="./js/turtlecoinUtils.js"></script>
+    <script src="./js/TurtleCoinUtils.js"></script>
     <script src="./js/transaction.js"></script>
   </head>
   <body class="has-navbar-fixed-top">
@@ -42,6 +42,7 @@
       <div id="siteNavBar" class="navbar-menu">
         <div class="navbar-start">
           <a class="navbar-item is-active" href="./"><i class="fas fa-dice-d6"></i>&nbsp; Block Explorer</a>
+          <a class="navbar-item" href="./nodes.html"><i class="fas fa-server"></i>&nbsp; Nodes</a>
           <a class="navbar-item" href="./pools.html"><i class="fas fa-users"></i>&nbsp; Pools</a>
           <a class="navbar-item" href="./tools.html"><i class="fas fa-toolbox"></i>&nbsp; Tools</a>
           <a class="navbar-item" href="./mixable.html"><i class="fas fa-mortar-pestle"></i>&nbsp; Mixable Amounts</a>
@@ -99,25 +100,30 @@
                   <td id="transactionAmount" class="has-text-left"></td>
                 </tr>
                 <tr>
+                  <th class="trtl-icon"><i class="fas fa-bars"></i></th>
+                  <th>Block Height</th>
+                  <td id="blockHeight" class="has-text-left"></td>
+                  <th class="trtl-icon"><i class="fas fa-hashtag"></i></th>
+                  <th>Block Hash</th>
+                  <td id="blockHash" class="has-text-left trtl-size"></td>
+                </tr>
+                <tr>
                   <th class="trtl-icon"><i class="fas fa-unlock"></i></th>
                   <th>Unlock Time</th>
                   <td id="transactionUnlockTime" class="has-text-left"></td>
-                  <th class="trtl-icon"><i class="fas fa-hashtag"></i></th>
-                  <th>Block Hash</th>
-                  <td id="blockHash" class="has-text-left"></td>
+                  <th class="trtl-icon"><i class="fa fa-key"></i></th>
+                  <th>Public Key</th>
+                  <td colspan="4" id="transactionPublicKey" class="has-text-left trtl-size"></td>
                 </tr>
                 <tr>
                   <th class="trtl-icon"><i class="fas fa-id-card"></i></th>
                   <th>Payment ID</th>
                   <td id="transactionPaymentId" class="has-text-left"></td>
-                  <th class="trtl-icon"><i class="fas fa-puzzle-piece"></i></th>
-                  <th>Nonce</th>
-                  <td id="transactionNonce" class="has-text-left"></td>
                 </tr>
                 <tr>
-                  <th class="trtl-icon"><i class="fa fa-key"></i></th>
-                  <th>Public Key</th>
-                  <td colspan="4" id="transactionPublicKey" class="has-text-left"></td>
+                  <th class="trtl-icon"><i class="fas fa-puzzle-piece"></i></th>
+                  <th>Nonce</th>
+                  <td colspan="4" id="transactionNonce" class="has-text-left"></td>
                 </tr>
               </table>
             </div>

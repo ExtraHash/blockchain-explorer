@@ -1,7 +1,5 @@
 const ExplorerConfig = {
   apiBaseUrl: 'https://blockapi.turtlepay.io',
-  poolApiUrl: 'https://poolapi.turtlepay.io/',
-  poolListUrl: 'https://raw.githubusercontent.com/turtlecoin/turtlecoin-pools-json/master/v2/turtlecoin-pools.json',
   ticker: 'TRTL',
   maxSupply: 100000000000000,
   emissionSpeed: 25,
@@ -26,5 +24,10 @@ const ExplorerConfig = {
     1600000,
     1800000,
     2000000,
+    2200000,
+    2400000,
+    2600000,
+    2800000,
+    3000000
   ]
 }
